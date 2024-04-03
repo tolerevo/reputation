@@ -137,7 +137,8 @@ table {
 /* Universal Styles */
 html {
   font-size: 16px;
-  background-color: #278724;
+  /*background-color: #125610;*/
+  background-image: radial-gradient(at top left, #111774, #34cb7e);
   text-align: center;
   font-family: 'Nunito', sans-serif, monospace;
 }
@@ -148,9 +149,10 @@ body {
 
 /* Main section */
 main h1 {
+  margin-top: 20px;
   position: relative;
   font-family: 'Nunito', sans-serif, monospace;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 50px;
   color: #f3bb84;
   object-position: center;
@@ -180,16 +182,18 @@ main a.cta:visited {
 h2 {
   position: relative;
   font-family: 'Nunito', sans-serif, monospace;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 42px;
   object-position: center;
-  color: white;
+  color: rgb(143, 32, 156);
 }
 
 p {
-  font: Verdana 21px gray;
+  font: Verdana 21px;
+  font-size: 1.3rem;
+  font-weight: 600;
   text-align: center;
-  color: gray;
+  color: #e6c9de;
 }
 
 
