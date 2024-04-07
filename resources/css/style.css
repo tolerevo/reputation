@@ -185,19 +185,34 @@ h2 {
   font-weight: 500;
   font-size: 42px;
   object-position: center;
-  color: rgb(143, 32, 156);
+  color: rgb(132, 249, 97);
 }
 
-p {
-  font: Verdana 21px;
-  font-size: 1.3rem;
+h3 {
+  font: Verdana;
+  font-size: 2rem;
   font-weight: 600;
   text-align: center;
-  color: #e6c9de;
+  color: #00ff08;
+  padding: 3% 10%;
+  line-height: 1.5;
 }
 
 
 footer p {
-  color: gray;
+  color: rgb(170, 28, 137);
   text-align: right;
+}
+
+section#video {
+  padding: 0px, 5px, 5px, 5px;
+  margin-top: 0;
+  display: block;
+  background-color: radial-gradient(at top left, #111774, #34cb7e);
+}
+
+section.finalImg {
+  display: block;
+  padding: 0 auto;
+  margin-bottom: 10%;
 }
